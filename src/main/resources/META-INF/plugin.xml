@@ -1,11 +1,13 @@
 <idea-plugin>
-    <id>org.example.halcyon-jetbrains</id>
-    <name>Plugin display name here</name>
-    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+    <id>com.aingson.halcyon-jetbrains</id>
+    <name>Halcyon Theme</name>
+    <vendor email="aings1@umbc.edu" url="https://github.com/ADMARIl/halcyon-jetbrains">Andrew Ingson</vendor>
 
     <description><![CDATA[
-    Enter short description for your plugin here.<br>
-    <em>most HTML tags may be used</em>
+    <p>Halcyon <i>theme</i> and <i>color scheme</i> for IntelliJ®, Webstorm® and other Jetbrains® IDEs</p>
+    <br/>
+    <br/>
+    Halcyon theme and color scheme based on Brittany Chiang's VSCode one.
     ]]></description>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
@@ -14,6 +16,7 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
+        <themeProvider id="a20dcb56-3527-478b-b687-b4b9bc4971b1" path="/Halcyon.theme.json"/>
     </extensions>
 
     <actions>

@@ -1,0 +1,178 @@
+<scheme name="Halcyon" version="142" parent_scheme="Darcula">
+    <option name="FONT_SCALE" value="1.0"/>
+    <metaInfo>
+        <property name="created">2018-07-21T16:37:03</property>
+        <property name="ide">idea</property>
+        <property name="ideVersion">2018.1.0.0</property>
+        <property name="modified">2018-07-31T10:42:31</property>
+    </metaInfo>
+    <option name="LINE_SPACING" value="1.2"/>
+    <font>
+        <option name="EDITOR_FONT_NAME" value="Consolas"/>
+        <option name="EDITOR_FONT_SIZE" value="13"/>
+    </font>
+    <font>
+        <option name="EDITOR_FONT_NAME" value="Source Code Pro"/>
+        <option name="EDITOR_FONT_SIZE" value="12"/>
+    </font>
+    <option name="EDITOR_LIGATURES" value="true"/>
+    <console-font>
+        <option name="EDITOR_FONT_NAME" value="Consolas"/>
+        <option name="EDITOR_FONT_SIZE" value="13"/>
+    </console-font>
+    <console-font>
+        <option name="EDITOR_FONT_NAME" value="Source Code Pro"/>
+        <option name="EDITOR_FONT_SIZE" value="12"/>
+    </console-font>
+    <option name="CONSOLE_LIGATURES" value="true"/>
+    <colors>
+        <option name="CARET_ROW_COLOR" value="2f3b54" />
+        <option name="FILESTATUS_ADDED" value="9ccc65" />
+        <option name="FILESTATUS_COPIED" value="9ccc65" />
+        <option name="FILESTATUS_DELETED" value="ef5350" />
+        <option name="FILESTATUS_HIJACKED" value="7e57c2" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="ef5350" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="395a75" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="ffeb95" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="ffeb95" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="ffeb95" />
+        <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="607d8b" />
+        <option name="FILESTATUS_MERGED" value="a2bffc" />
+        <option name="FILESTATUS_MODIFIED" value="e2b93d" />
+        <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="57b6c2" />
+        <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="57b6c2" />
+        <option name="FILESTATUS_RENAMED" value="7e57c2" />
+        <option name="FILESTATUS_SUPPRESSED" value="d6deeb" />
+        <option name="FILESTATUS_SWITCHED" value="e2b93d" />
+        <option name="FILESTATUS_UNKNOWN" value="addb67" />
+        <option name="FILESTATUS_addedOutside" value="addb67" />
+        <option name="FILESTATUS_changelistConflict" value="ffeb95" />
+        <option name="FILESTATUS_modifiedOutside" value="e2b93d" />
+        <option name="LINE_NUMBERS_COLOR" value="6679a4" />
+    </colors>
+    <attributes>
+        <option name="CSS.COLOR">
+            <value>
+                <option name="FOREGROUND" value="ffd580" />
+            </value>
+        </option>
+        <option name="CSS.TAG_NAME">
+            <value>
+                <option name="FOREGROUND" value="ffae57" />
+            </value>
+        </option>
+        <option name="DEFAULT_BLOCK_COMMENT">
+            <value>
+                <option name="FOREGROUND" value="5ccfe6" />
+            </value>
+        </option>
+        <option name="DEFAULT_BRACES">
+            <value>
+                <option name="FOREGROUND" value="d7dce2" />
+            </value>
+        </option>
+        <option name="DEFAULT_BRACKETS">
+            <value>
+                <option name="FOREGROUND" value="d7dce2" />
+            </value>
+        </option>
+        <option name="DEFAULT_CONSTANT">
+            <value>
+                <option name="FOREGROUND" value="bae67e" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="DEFAULT_INSTANCE_FIELD">
+            <value>
+                <option name="FOREGROUND" value="5ccfe6" />
+            </value>
+        </option>
+        <option name="DEFAULT_INVALID_STRING_ESCAPE">
+            <value>
+                <option name="FOREGROUND" value="bae67e" />
+                <option name="EFFECT_COLOR" value="ff0000" />
+                <option name="EFFECT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="DEFAULT_KEYWORD">
+            <value>
+                <option name="FOREGROUND" value="c3a6ff" />
+            </value>
+        </option>
+        <option name="DEFAULT_NUMBER">
+            <value>
+                <option name="FOREGROUND" value="c3a6ff" />
+            </value>
+        </option>
+        <option name="DEFAULT_SEMICOLON">
+            <value>
+                <option name="FOREGROUND" value="a2aabc" />
+            </value>
+        </option>
+        <option name="DEFAULT_STRING">
+            <value>
+                <option name="FOREGROUND" value="bae67e" />
+            </value>
+        </option>
+        <option name="HTML_ATTRIBUTE_NAME">
+            <value>
+                <option name="FOREGROUND" value="ffae57" />
+            </value>
+        </option>
+        <option name="HTML_ATTRIBUTE_VALUE">
+            <value>
+                <option name="FOREGROUND" value="c3a6ff" />
+            </value>
+        </option>
+        <option name="HTML_TAG_NAME">
+            <value>
+                <option name="FOREGROUND" value="5ccfe6" />
+            </value>
+        </option>
+        <option name="JS.GLOBAL_VARIABLE">
+            <value>
+                <option name="FOREGROUND" value="5ccfe6" />
+            </value>
+        </option>
+        <option name="JS.KEYWORD">
+            <value>
+                <option name="FOREGROUND" value="ffae57" />
+            </value>
+        </option>
+        <option name="MARKDOWN_HRULE">
+            <value>
+                <option name="FOREGROUND" value="808080" />
+            </value>
+        </option>
+        <option name="MARKDOWN_HTML_BLOCK">
+            <value>
+                <option name="FOREGROUND" value="5ccfe6" />
+                <option name="EFFECT_TYPE" value="5" />
+            </value>
+        </option>
+        <option name="MARKDOWN_ORDERED_LIST">
+            <value>
+                <option name="FOREGROUND" value="5ccfe6" />
+            </value>
+        </option>
+        <option name="TEXT">
+            <value>
+                <option name="FOREGROUND" value="a2aabc" />
+                <option name="BACKGROUND" value="1d2433" />
+                <option name="EFFECT_TYPE" value="5" />
+            </value>
+        </option>
+        <option name="XML_ATTRIBUTE_NAME">
+            <value>
+                <option name="FOREGROUND" value="ffae57" />
+            </value>
+        </option>
+        <option name="XML_PROLOGUE" baseAttributes="TEXT" />
+        <option name="XML_TAG" baseAttributes="DEFAULT_TAG" />
+        <option name="XML_TAG_NAME">
+            <value>
+                <option name="FOREGROUND" value="5ccfe6" />
+            </value>
+        </option>
+    </attributes>
+</scheme>
