@@ -1,5 +1,5 @@
 <idea-plugin>
-    <id>com.aingson.halcyon-jetbrains</id>
+    <id>com.ADMARIl.halcyon-jetbrains</id>
     <name>Halcyon Theme</name>
     <vendor email="aings1@umbc.edu" url="https://github.com/ADMARIl/halcyon-jetbrains">Andrew Ingson</vendor>
 
@@ -9,6 +9,14 @@
     <br/>
     Halcyon theme and color scheme based on Brittany Chiang's VSCode one.
     ]]></description>
+
+    <version>0.2</version>
+
+    <change-notes>
+        Initial release of the plugin.
+
+        Alpha Release
+    </change-notes>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
          on how to target different products -->
