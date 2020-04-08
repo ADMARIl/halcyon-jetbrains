@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.ADMARIl'
-version '0.1'
+version '0.2-SNAP'
 
 sourceCompatibility = 1.8
 
@@ -18,12 +18,12 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version '2019.3.4'
+    version 'LATEST-EAP-SNAPSHOT'
 }
 patchPluginXml {
     changeNotes """
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>"""
+      Initial Release of the theme plugin.<br>
+      <em>Adds the basic theme to the ui and some editor coloring</em>"""
 }
 
 publishPlugin {
