@@ -21,27 +21,27 @@
     <option name="CONSOLE_LIGATURES" value="true"/>
     <colors>
         <option name="CARET_ROW_COLOR" value="2f3b54" />
-        <option name="FILESTATUS_ADDED" value="9ccc65" />
-        <option name="FILESTATUS_COPIED" value="9ccc65" />
-        <option name="FILESTATUS_DELETED" value="ef5350" />
+        <option name="FILESTATUS_ADDED" value="bae67e" />
+        <option name="FILESTATUS_COPIED" value="bae67e" />
+        <option name="FILESTATUS_DELETED" value="ef6b73" />
         <option name="FILESTATUS_HIJACKED" value="7e57c2" />
-        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="ef5350" />
+        <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="ef6b73" />
         <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="395a75" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="ffeb95" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="ffeb95" />
         <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="ffeb95" />
         <option name="FILESTATUS_IGNORE.PROJECT_VIEW.IGNORED" value="607d8b" />
         <option name="FILESTATUS_MERGED" value="a2bffc" />
-        <option name="FILESTATUS_MODIFIED" value="e2b93d" />
+        <option name="FILESTATUS_MODIFIED" value="5ccfe6" />
         <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="57b6c2" />
         <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="57b6c2" />
         <option name="FILESTATUS_RENAMED" value="7e57c2" />
         <option name="FILESTATUS_SUPPRESSED" value="d6deeb" />
-        <option name="FILESTATUS_SWITCHED" value="e2b93d" />
+        <option name="FILESTATUS_SWITCHED" value="5ccfe6" />
         <option name="FILESTATUS_UNKNOWN" value="addb67" />
         <option name="FILESTATUS_addedOutside" value="addb67" />
         <option name="FILESTATUS_changelistConflict" value="ffeb95" />
-        <option name="FILESTATUS_modifiedOutside" value="e2b93d" />
+        <option name="FILESTATUS_modifiedOutside" value="5ccfe6" />
         <option name="LINE_NUMBERS_COLOR" value="6679a4" />
     </colors>
     <attributes>

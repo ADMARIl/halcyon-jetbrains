@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.ADMARIl'
-version '0.2-SNAP'
+version '0.2.1'
 
 sourceCompatibility = 1.8
 
@@ -28,5 +28,4 @@ patchPluginXml {
 
 publishPlugin {
     token intellijPublishToken
-    channels 'alpha'
 }
