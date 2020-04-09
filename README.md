@@ -56,4 +56,4 @@ Read the [JetBrains Support Page](https://www.jetbrains.com/help/idea/managing-p
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 
-###### Big shoutout to [Brittany Chiang](https://github.com/bchiang7) and [One Dark](https://github.com/one-dark/jetbrains-one-dark-theme) whose repositories were instrumental in the creation of this theme.
+###### Many thanks to [Brittany Chiang](https://github.com/bchiang7) and [One Dark](https://github.com/one-dark/jetbrains-one-dark-theme) whose existing work were instrumental in the creation of this theme.
