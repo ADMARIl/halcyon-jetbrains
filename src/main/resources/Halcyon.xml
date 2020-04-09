@@ -1,26 +1,28 @@
 <scheme name="Halcyon" version="142" parent_scheme="Darcula">
-    <option name="FONT_SCALE" value="1.0"/>
-    <option name="LINE_SPACING" value="1.2"/>
-    <font>
-        <option name="EDITOR_FONT_NAME" value="Consolas"/>
-        <option name="EDITOR_FONT_SIZE" value="13"/>
-    </font>
-    <font>
-        <option name="EDITOR_FONT_NAME" value="Source Code Pro"/>
-        <option name="EDITOR_FONT_SIZE" value="12"/>
-    </font>
-    <option name="EDITOR_LIGATURES" value="true"/>
+    <option name="FONT_SCALE" value="1.0" />
+    <metaInfo>
+        <property name="created">2020-04-09T16:35:52</property>
+        <property name="ide">CLion</property>
+        <property name="ideVersion">2019.3.5.0.0</property>
+        <property name="modified">2020-04-09T16:36:00</property>
+        <property name="originalScheme">_@user_Halcyon</property>
+    </metaInfo>
+    <option name="LINE_SPACING" value="1.2" />
+    <option name="EDITOR_FONT_SIZE" value="12" />
+    <option name="EDITOR_FONT_NAME" value="Consolas" />
     <console-font>
-        <option name="EDITOR_FONT_NAME" value="Consolas"/>
-        <option name="EDITOR_FONT_SIZE" value="13"/>
+        <option name="EDITOR_FONT_NAME" value="Consolas" />
+        <option name="EDITOR_FONT_SIZE" value="13" />
     </console-font>
     <console-font>
-        <option name="EDITOR_FONT_NAME" value="Source Code Pro"/>
-        <option name="EDITOR_FONT_SIZE" value="12"/>
+        <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
+        <option name="EDITOR_FONT_SIZE" value="13" />
     </console-font>
-    <option name="CONSOLE_LIGATURES" value="true"/>
+    <option name="CONSOLE_LIGATURES" value="true" />
     <colors>
+        <option name="CARET_COLOR" value="d7dce2" />
         <option name="CARET_ROW_COLOR" value="2f3b54" />
+        <option name="CONSOLE_BACKGROUND_KEY" value="" />
         <option name="FILESTATUS_ADDED" value="bae67e" />
         <option name="FILESTATUS_COPIED" value="bae67e" />
         <option name="FILESTATUS_DELETED" value="ef6b73" />
@@ -45,6 +47,23 @@
         <option name="LINE_NUMBERS_COLOR" value="6679a4" />
     </colors>
     <attributes>
+        <option name="CONSOLE_ERROR_OUTPUT">
+            <value>
+                <option name="FOREGROUND" value="ef6b73" />
+            </value>
+        </option>
+        <option name="CONSOLE_NORMAL_OUTPUT">
+            <value />
+        </option>
+        <option name="CONSOLE_SYSTEM_OUTPUT">
+            <value />
+        </option>
+        <option name="CONSOLE_USER_INPUT">
+            <value>
+                <option name="FOREGROUND" value="bae67e" />
+                <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
         <option name="CSS.COLOR">
             <value>
                 <option name="FOREGROUND" value="ffd580" />
@@ -57,23 +76,38 @@
         </option>
         <option name="DEFAULT_BLOCK_COMMENT">
             <value>
-                <option name="FOREGROUND" value="5ccfe6" />
+                <option name="FOREGROUND" value="7889a4" />
             </value>
         </option>
         <option name="DEFAULT_BRACES">
             <value>
-                <option name="FOREGROUND" value="d7dce2" />
+                <option name="FOREGROUND" value="a2aabc" />
             </value>
         </option>
         <option name="DEFAULT_BRACKETS">
             <value>
-                <option name="FOREGROUND" value="d7dce2" />
+                <option name="FOREGROUND" value="a2aabc" />
             </value>
         </option>
         <option name="DEFAULT_CONSTANT">
             <value>
                 <option name="FOREGROUND" value="bae67e" />
                 <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="DEFAULT_DOT">
+            <value>
+                <option name="FOREGROUND" value="a2aabc" />
+            </value>
+        </option>
+        <option name="DEFAULT_FUNCTION_CALL">
+            <value>
+                <option name="FOREGROUND" value="ffd580" />
+            </value>
+        </option>
+        <option name="DEFAULT_IDENTIFIER">
+            <value>
+                <option name="FOREGROUND" value="a2aabc" />
             </value>
         </option>
         <option name="DEFAULT_INSTANCE_FIELD">
@@ -93,9 +127,24 @@
                 <option name="FOREGROUND" value="c3a6ff" />
             </value>
         </option>
+        <option name="DEFAULT_LINE_COMMENT">
+            <value>
+                <option name="FOREGROUND" value="5c6882" />
+            </value>
+        </option>
+        <option name="DEFAULT_METADATA">
+            <value>
+                <option name="FOREGROUND" value="ffae57" />
+            </value>
+        </option>
         <option name="DEFAULT_NUMBER">
             <value>
                 <option name="FOREGROUND" value="c3a6ff" />
+            </value>
+        </option>
+        <option name="DEFAULT_OPERATION_SIGN">
+            <value>
+                <option name="FOREGROUND" value="ffae57" />
             </value>
         </option>
         <option name="DEFAULT_SEMICOLON">
@@ -106,6 +155,35 @@
         <option name="DEFAULT_STRING">
             <value>
                 <option name="FOREGROUND" value="bae67e" />
+            </value>
+        </option>
+        <option name="DEFAULT_VALID_STRING_ESCAPE">
+            <value>
+                <option name="FOREGROUND" value="f09833" />
+            </value>
+        </option>
+        <option name="DIFF_CONFLICT">
+            <value>
+                <option name="BACKGROUND" value="b8894d" />
+                <option name="ERROR_STRIPE_COLOR" value="ffcc66" />
+            </value>
+        </option>
+        <option name="DIFF_DELETED">
+            <value>
+                <option name="BACKGROUND" value="9a4d4d" />
+                <option name="ERROR_STRIPE_COLOR" value="ef6b73" />
+            </value>
+        </option>
+        <option name="DIFF_INSERTED">
+            <value>
+                <option name="BACKGROUND" value="496126" />
+                <option name="ERROR_STRIPE_COLOR" value="bae67e" />
+            </value>
+        </option>
+        <option name="DIFF_MODIFIED">
+            <value>
+                <option name="BACKGROUND" value="427389" />
+                <option name="ERROR_STRIPE_COLOR" value="5ccfe6" />
             </value>
         </option>
         <option name="HTML_ATTRIBUTE_NAME">
@@ -133,11 +211,6 @@
                 <option name="FOREGROUND" value="ffae57" />
             </value>
         </option>
-        <option name="MARKDOWN_HRULE">
-            <value>
-                <option name="FOREGROUND" value="808080" />
-            </value>
-        </option>
         <option name="MARKDOWN_HTML_BLOCK">
             <value>
                 <option name="FOREGROUND" value="5ccfe6" />
@@ -147,6 +220,11 @@
         <option name="MARKDOWN_ORDERED_LIST">
             <value>
                 <option name="FOREGROUND" value="5ccfe6" />
+            </value>
+        </option>
+        <option name="OC.STRUCT_LIKE">
+            <value>
+                <option name="FOREGROUND" value="ffd580" />
             </value>
         </option>
         <option name="TEXT">

@@ -21,9 +21,13 @@ intellij {
     version 'LATEST-EAP-SNAPSHOT'
 }
 patchPluginXml {
-    changeNotes """
-      Initial Release of the theme plugin.<br>
-      <em>Adds the basic theme to the ui and some editor coloring</em>"""
+    sinceBuild '191'
+
+    def changelogPath = "$projectDir/docs/CHANGELOG.html"
+
+    if (file(changelogPath).exists()) {
+        changeNotes file(changelogPath).text
+    }
 }
 
 publishPlugin {
