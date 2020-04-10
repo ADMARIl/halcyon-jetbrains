@@ -21,9 +21,9 @@
       "acceleratorForeground": "#E6E6E6",
       "acceleratorSelectionForeground": "#E6E6E6",
 
-      "errorForeground": "#cd3359",
+      "errorForeground": "#ef6b73",
 
-      "borderColor": "#46494f",
+      "borderColor": "#171c28",
       "disabledBorderColor": "#2d3137",
       "focusColor": "#171c28",
       "focusedBorderColor": "#568AF2",
@@ -92,7 +92,7 @@
       "foreground": "#abb2bf"
     },
 
-    "DebuggerPopup.borderColor": "#46494f",
+    "DebuggerPopup.borderColor": "#171c28",
 
     "DefaultTabs": {
       "underlineColor": "#568AF2",
@@ -103,7 +103,7 @@
     "DragAndDrop": {
       "areaForeground": "#abb2bf",
       "areaBackground": "#323844",
-      "areaBorderColor": "#46494f"
+      "areaBorderColor": "#171c28"
     },
 
     "Editor": {
@@ -138,10 +138,10 @@
       "visitedForeground": "#6494ed"
     },
 
-    "MenuBar.borderColor": "#46494f",
+    "MenuBar.borderColor": "#171c28",
     "Menu.borderColor": "#2d3137",
 
-    "NavBar.borderColor": "#46494f",
+    "NavBar.borderColor": "#171c28",
 
     "Notification": {
       "background": "#3d424b",

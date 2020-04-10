@@ -1,5 +1,11 @@
 # Changelog
 
+#### 0.2.2
+
+- Removed most of the menu borders
+- Fixed gutter background not applying
+- Changed indentation guide colors
+
 #### 0.2.1
 
 - Updated colors.

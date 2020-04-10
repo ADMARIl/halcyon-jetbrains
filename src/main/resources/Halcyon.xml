@@ -1,10 +1,10 @@
 <scheme name="Halcyon" version="142" parent_scheme="Darcula">
     <option name="FONT_SCALE" value="1.0" />
     <metaInfo>
-        <property name="created">2020-04-09T16:35:52</property>
-        <property name="ide">CLion</property>
-        <property name="ideVersion">2019.3.5.0.0</property>
-        <property name="modified">2020-04-09T16:36:00</property>
+        <property name="created">2020-04-09T21:40:12</property>
+        <property name="ide">idea</property>
+        <property name="ideVersion">2020.1.0.0</property>
+        <property name="modified">2020-04-09T21:40:23</property>
         <property name="originalScheme">_@user_Halcyon</property>
     </metaInfo>
     <option name="LINE_SPACING" value="1.2" />
@@ -44,7 +44,13 @@
         <option name="FILESTATUS_addedOutside" value="addb67" />
         <option name="FILESTATUS_changelistConflict" value="ffeb95" />
         <option name="FILESTATUS_modifiedOutside" value="5ccfe6" />
+        <option name="GUTTER_BACKGROUND" value="1d2433" />
+        <option name="INDENT_GUIDE" value="3f495e" />
         <option name="LINE_NUMBERS_COLOR" value="6679a4" />
+        <option name="RIGHT_MARGIN_COLOR" value="3f495e" />
+        <option name="SELECTED_INDENT_GUIDE" value="3f495e" />
+        <option name="TEARLINE_COLOR" value="3f495e" />
+        <option name="VISUAL_INDENT_GUIDE" value="3f495e" />
     </colors>
     <attributes>
         <option name="CONSOLE_ERROR_OUTPUT">
@@ -107,7 +113,7 @@
         </option>
         <option name="DEFAULT_IDENTIFIER">
             <value>
-                <option name="FOREGROUND" value="a2aabc" />
+                <option name="FOREGROUND" value="5ccfe6" />
             </value>
         </option>
         <option name="DEFAULT_INSTANCE_FIELD">
@@ -196,6 +202,7 @@
                 <option name="FOREGROUND" value="c3a6ff" />
             </value>
         </option>
+        <option name="HTML_TAG" baseAttributes="DEFAULT_TAG" />
         <option name="HTML_TAG_NAME">
             <value>
                 <option name="FOREGROUND" value="5ccfe6" />
@@ -209,6 +216,11 @@
         <option name="JS.KEYWORD">
             <value>
                 <option name="FOREGROUND" value="ffae57" />
+            </value>
+        </option>
+        <option name="MARKDOWN_HRULE">
+            <value>
+                <option name="FOREGROUND" value="808080" />
             </value>
         </option>
         <option name="MARKDOWN_HTML_BLOCK">

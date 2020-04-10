@@ -8,7 +8,7 @@
   A minimal, dark blue theme based on based on <a href="https://github.com/bchiang7/halcyon-vscode">Brittany Chiang's VSCode theme</a>.
 </p>
 
-![demo](https://raw.githubusercontent.com/ADMARIl/halcyon-jetbrains/master/docs/screenshots/main_shadow.png)
+![code](https://raw.githubusercontent.com/ADMARIl/halcyon-jetbrains/master/docs/screenshots/main_shadow.png)
 
 ## Installation via JetBrains
 
@@ -18,6 +18,8 @@
 4. Click **Ok** to apply the changes
 5. Restart the IDE when prompted
 6. If the theme isn't automatically chosen, go to File > Settings > Appearance & Behavior > Appearance > Theme > **Halcyon**
+
+![settings](https://raw.githubusercontent.com/ADMARIl/halcyon-jetbrains/master/docs/screenshots/settings_shadow.png)
 
 ## Manual Installation
 
@@ -56,4 +58,4 @@ Read the [JetBrains Support Page](https://www.jetbrains.com/help/idea/managing-p
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 
-###### Many thanks to [Brittany Chiang](https://github.com/bchiang7) and [One Dark](https://github.com/one-dark/jetbrains-one-dark-theme) whose existing work were instrumental in the creation of this theme.
+###### Many thanks to [Brittany Chiang](https://github.com/bchiang7) and [One Dark](https://github.com/one-dark/jetbrains-one-dark-theme) whose existing work was incredibly helpful in the creation of this theme.
