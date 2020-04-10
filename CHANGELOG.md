@@ -5,6 +5,7 @@
 - Removed most of the menu borders
 - Fixed gutter background not applying
 - Changed indentation guide colors
+- Added plugin icon
 
 #### 0.2.1
 
