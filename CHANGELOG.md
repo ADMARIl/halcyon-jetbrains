@@ -1,5 +1,9 @@
 # Changelog
 
+#### 0.2.3
+
+- Lightened default line comment color based on user feedback.
+
 #### 0.2.2
 
 - Removed most of the menu borders
