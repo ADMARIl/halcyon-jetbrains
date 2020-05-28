@@ -4,10 +4,112 @@
     <vendor email="aings1@umbc.edu" url="https://github.com/ADMARIl/halcyon-jetbrains">Andrew Ingson</vendor>
 
     <description><![CDATA[
-    <p>Halcyon <i>theme</i> and <i>color scheme</i> for IntelliJ®, Webstorm® and other Jetbrains® IDEs</p>
+    <p>A minimal, dark blue theme for the JetBrains suite of IDEs based on
+    <a href="https://github.com/bchiang7/halcyon-vscode">Brittany Chiang's VSCode theme</a>.
+    </p>
     <br/>
+    <p><a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/ADMARIl/halcyon-jetbrains/master/docs/screenshots/main_shadow.png"><img src="https://raw.githubusercontent.com/ADMARIl/halcyon-jetbrains/master/docs/screenshots/main_shadow.png" alt="code" style="max-width:100%;"></a>
+<em>Due to the way JetBrains handles syntax highlighting, there are some slight differences in coloring from the original.</em></p>
     <br/>
-    Halcyon theme and color scheme based on Brittany Chiang's VSCode one.
+    <h2>Setup</h2>
+    <ol>
+        <li>Open the <strong>Plugins</strong> panel in your IDE. <code>File → Settings → Plugins</code></li>
+        <li>Search for <code>Halcyon Theme</code></li>
+        <li>Click <strong>Install</strong> to install it</li>
+        <li>Click <strong>Ok</strong> to apply the changes</li>
+        <li>Restart the IDE when prompted</li>
+        <li>If the theme isn't automatically chosen, go to File &gt; Settings &gt; Appearance &amp; Behavior &gt; Appearance &gt; Theme &gt; <strong>Halcyon</strong></li>
+    </ol>
+    <p><a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/ADMARIl/halcyon-jetbrains/master/docs/screenshots/settings_shadow.png"><img src="https://raw.githubusercontent.com/ADMARIl/halcyon-jetbrains/master/docs/screenshots/settings_shadow.png" alt="settings" style="max-width:100%;"></a></p>
+    <br/>
+    <h2>Color Reference</h2>
+    <h3>Syntax Colors</h3>
+    <table>
+    <thead>
+    <tr>
+    <th align="center">Color</th>
+    <th>Usage</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td align="center"><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/b2982784cd416d9f73f3914d3944ec5aff218bc5/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f6333613666663f746578743d2b"><img src="https://camo.githubusercontent.com/b2982784cd416d9f73f3914d3944ec5aff218bc5/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f6333613666663f746578743d2b" alt="#c3a6ff" data-canonical-src="https://via.placeholder.com/10/c3a6ff?text=+" style="max-width:100%;"></a> <code>#c3a6ff</code></td>
+    <td>Keywords, constants, template literals</td>
+    </tr>
+    <tr>
+    <td align="center"><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/d646e0b4fa46cf4ba9afb10b02af915864dba4d8/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f6666643538303f746578743d2b"><img src="https://camo.githubusercontent.com/d646e0b4fa46cf4ba9afb10b02af915864dba4d8/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f6666643538303f746578743d2b" alt="#ffd580" data-canonical-src="https://via.placeholder.com/10/ffd580?text=+" style="max-width:100%;"></a> <code>#ffd580</code></td>
+    <td>Functions, classes, object literal keys</td>
+    </tr>
+    <tr>
+    <td align="center"><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/fa37015e41bfcb1653b9a0694454c22f3ec53997/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f6666616535373f746578743d2b"><img src="https://camo.githubusercontent.com/fa37015e41bfcb1653b9a0694454c22f3ec53997/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f6666616535373f746578743d2b" alt="#ffae57" data-canonical-src="https://via.placeholder.com/10/ffae57?text=+" style="max-width:100%;"></a> <code>#ffae57</code></td>
+    <td>Constants, operators</td>
+    </tr>
+    <tr>
+    <td align="center"><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/aa61fe40cf41212d366dc359420f897d54892b10/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f6261653637653f746578743d2b"><img src="https://camo.githubusercontent.com/aa61fe40cf41212d366dc359420f897d54892b10/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f6261653637653f746578743d2b" alt="#bae67e" data-canonical-src="https://via.placeholder.com/10/bae67e?text=+" style="max-width:100%;"></a> <code>#bae67e</code></td>
+    <td>Strings, markdown headings</td>
+    </tr>
+    <tr>
+    <td align="center"><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/cb80eaeb90b4124afc38cf23bb97a5ed1231cf12/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f3563636665363f746578743d2b"><img src="https://camo.githubusercontent.com/cb80eaeb90b4124afc38cf23bb97a5ed1231cf12/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f3563636665363f746578743d2b" alt="#5ccfe6" data-canonical-src="https://via.placeholder.com/10/5ccfe6?text=+" style="max-width:100%;"></a> <code>#5ccfe6</code></td>
+    <td>Special keywords, classes, markdown code blocks</td>
+    </tr>
+    <tr>
+    <td align="center"><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/d91f6b18b89b069a4471fdd4745a1f75818fec06/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f6132616162633f746578743d2b"><img src="https://camo.githubusercontent.com/d91f6b18b89b069a4471fdd4745a1f75818fec06/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f6132616162633f746578743d2b" alt="#a2aabc" data-canonical-src="https://via.placeholder.com/10/a2aabc?text=+" style="max-width:100%;"></a> <code>#a2aabc</code></td>
+    <td>Variables, property names, tags</td>
+    </tr>
+    </tbody>
+    </table>
+    <h3>UI Colors</h3>
+    <table>
+    <thead>
+    <tr>
+    <th align="center">Color</th>
+    <th>Usage</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td align="center"><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/08f70db43d02ec3e5fa1f62e2646f49685d2851b/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f3137316332383f746578743d2b"><img src="https://camo.githubusercontent.com/08f70db43d02ec3e5fa1f62e2646f49685d2851b/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f3137316332383f746578743d2b" alt="#171c28" data-canonical-src="https://via.placeholder.com/10/171c28?text=+" style="max-width:100%;"></a> <code>#171c28</code></td>
+    <td>Workbench background</td>
+    </tr>
+    <tr>
+    <td align="center"><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/0c44357cf362d1a1679ced92331d319d21cfe943/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f3164323433333f746578743d2b"><img src="https://camo.githubusercontent.com/0c44357cf362d1a1679ced92331d319d21cfe943/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f3164323433333f746578743d2b" alt="#1d2433" data-canonical-src="https://via.placeholder.com/10/1d2433?text=+" style="max-width:100%;"></a> <code>#1d2433</code></td>
+    <td>Editor background</td>
+    </tr>
+    <tr>
+    <td align="center"><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/803298cf1fe7756d4bfdb6ad9724b9b731e31c27/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f3266336235343f746578743d2b"><img src="https://camo.githubusercontent.com/803298cf1fe7756d4bfdb6ad9724b9b731e31c27/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f3266336235343f746578743d2b" alt="#2f3b54" data-canonical-src="https://via.placeholder.com/10/2f3b54?text=+" style="max-width:100%;"></a> <code>#2f3b54</code></td>
+    <td>Highlight, widgets, panels</td>
+    </tr>
+    <tr>
+    <td align="center"><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/80891ca3730e364fcb9770420eb32d43737d6591/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f3636373961343f746578743d2b"><img src="https://camo.githubusercontent.com/80891ca3730e364fcb9770420eb32d43737d6591/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f3636373961343f746578743d2b" alt="#6679a4" data-canonical-src="https://via.placeholder.com/10/6679a4?text=+" style="max-width:100%;"></a> <code>#6679a4</code></td>
+    <td>Dividers, subtle UI elements</td>
+    </tr>
+    <tr>
+    <td align="center"><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/011bd4b7a3708442e638eb75deb1ec1c7e7c57c7/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f3836393562373f746578743d2b"><img src="https://camo.githubusercontent.com/011bd4b7a3708442e638eb75deb1ec1c7e7c57c7/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f3836393562373f746578743d2b" alt="#8695b7" data-canonical-src="https://via.placeholder.com/10/8695b7?text=+" style="max-width:100%;"></a> <code>#8695b7</code></td>
+    <td>Status bar text, buttons, etc</td>
+    </tr>
+    <tr>
+    <td align="center"><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/4e8f302dbd055a85d7cf5ad193a9661cbc0ba48a/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f6437646365323f746578743d2b"><img src="https://camo.githubusercontent.com/4e8f302dbd055a85d7cf5ad193a9661cbc0ba48a/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f6437646365323f746578743d2b" alt="#d7dce2" data-canonical-src="https://via.placeholder.com/10/d7dce2?text=+" style="max-width:100%;"></a> <code>#d7dce2</code></td>
+    <td>Active text, anything that should be white</td>
+    </tr>
+    <tr>
+    <td align="center"><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/7740c0387cfaf420d5518c351720adbe2a920c56/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f6666636336363f746578743d2b"><img src="https://camo.githubusercontent.com/7740c0387cfaf420d5518c351720adbe2a920c56/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f6666636336363f746578743d2b" alt="#ffcc66" data-canonical-src="https://via.placeholder.com/10/ffcc66?text=+" style="max-width:100%;"></a> <code>#ffcc66</code></td>
+    <td>Accent, list tree titles, badges, etc</td>
+    </tr>
+    <tr>
+    <td align="center"><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/aa61fe40cf41212d366dc359420f897d54892b10/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f6261653637653f746578743d2b"><img src="https://camo.githubusercontent.com/aa61fe40cf41212d366dc359420f897d54892b10/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f6261653637653f746578743d2b" alt="#bae67e" data-canonical-src="https://via.placeholder.com/10/bae67e?text=+" style="max-width:100%;"></a> <code>#bae67e</code></td>
+    <td>Addition highlights</td>
+    </tr>
+    <tr>
+    <td align="center"><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/dfa5f8a39c39da824ea0875829bdabe5a33baecf/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f6566366237333f746578743d2b"><img src="https://camo.githubusercontent.com/dfa5f8a39c39da824ea0875829bdabe5a33baecf/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f6566366237333f746578743d2b" alt="#ef6b73" data-canonical-src="https://via.placeholder.com/10/ef6b73?text=+" style="max-width:100%;"></a> <code>#ef6b73</code></td>
+    <td>Deletion highlights, errors, warnings</td>
+    </tr>
+    <tr>
+    <td align="center"><a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/cb80eaeb90b4124afc38cf23bb97a5ed1231cf12/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f3563636665363f746578743d2b"><img src="https://camo.githubusercontent.com/cb80eaeb90b4124afc38cf23bb97a5ed1231cf12/68747470733a2f2f7669612e706c616365686f6c6465722e636f6d2f31302f3563636665363f746578743d2b" alt="#5ccfe6" data-canonical-src="https://via.placeholder.com/10/5ccfe6?text=+" style="max-width:100%;"></a> <code>#5ccfe6</code></td>
+    <td>Modified highlights</td>
+    </tr>
+    </tbody>
+    </table>
+
     ]]></description>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html

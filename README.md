@@ -1,5 +1,7 @@
 <p align="center">
-  <img alt="Halcyon Logo" src="https://raw.githubusercontent.com/ADMARIl/halcyon-jetbrains/master/docs/pluginIcon.png" width="135" />
+  <a href="https://plugins.jetbrains.com/plugin/14093-halcyon-theme">
+    <img alt="Halcyon Logo" src="https://raw.githubusercontent.com/ADMARIl/halcyon-jetbrains/master/docs/pluginIcon.png" width="135" />
+  </a>
 </p>
 <h1 align="center">
   Halcyon Theme for JetBrains
