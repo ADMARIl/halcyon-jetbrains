@@ -15,7 +15,7 @@
       "selectionBackgroundInactive": "#2c313a",
       "selectionForeground": "#d7dae0",
 
-      "disabledBackground": "#171c28",
+      "disabledBackground": "#323844",
       "inactiveBackground": "#171c28",
 
       "acceleratorForeground": "#E6E6E6",
@@ -25,7 +25,7 @@
 
       "borderColor": "#171c28",
       "disabledBorderColor": "#2d3137",
-      "focusColor": "#171c28",
+      "focusColor": "#323844",
       "focusedBorderColor": "#568AF2",
 
       "separatorColor": "#32363c"
