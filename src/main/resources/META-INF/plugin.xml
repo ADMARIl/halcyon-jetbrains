@@ -4,10 +4,32 @@
     <vendor email="aings1@umbc.edu" url="https://github.com/ADMARIl/halcyon-jetbrains">Andrew Ingson</vendor>
 
     <description><![CDATA[
-    <p>Halcyon <i>theme</i> and <i>color scheme</i> for IntelliJ®, Webstorm® and other Jetbrains® IDEs</p>
+    <p>A minimal, dark blue theme for the JetBrains suite of IDEs based on
+    <a href="https://github.com/bchiang7/halcyon-vscode">Brittany Chiang's VSCode theme</a>.
+    </p>
     <br/>
+    <p><a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/ADMARIl/halcyon-jetbrains/master/docs/screenshots/main_shadow.png"><img src="https://raw.githubusercontent.com/ADMARIl/halcyon-jetbrains/master/docs/screenshots/main_shadow.png" alt="code" style="max-width:100%;"></a>
+<em>Due to the way JetBrains handles syntax highlighting, there are some slight differences in coloring from the original.</em></p>
     <br/>
-    Halcyon theme and color scheme based on Brittany Chiang's VSCode one.
+    <h2>Setup</h2>
+    <ol>
+        <li>Open the <strong>Plugins</strong> panel in your IDE. <code>File → Settings → Plugins</code></li>
+        <li>Search for <code>Halcyon Theme</code></li>
+        <li>Click <strong>Install</strong> to install it</li>
+        <li>Click <strong>Ok</strong> to apply the changes</li>
+        <li>Restart the IDE when prompted</li>
+        <li>If the theme isn't automatically chosen, go to File &gt; Settings &gt; Appearance &amp; Behavior &gt; Appearance &gt; Theme &gt; <strong>Halcyon</strong></li>
+    </ol>
+    <h2>Updating</h2>
+    <p>While the IDE should prompt you when an update is available, there is occasionally an issue where the theme isn't applied after an update</p>
+    <ol>
+        <li>To fix this, go to <code>File → Settings → Editor → Color Scheme</code> and ensure <strong>Halcyon</strong> is selected under the <code>Scheme</code> dropdown.</li>
+        <li>Next, ensure <strong>Halcyon</strong> is selected under <code>File → Settings → Appearance &amp; Behavior → Appearance → Theme</code></li>
+        <li>If the previous two steps didn't fix your issue, try restarting your IDE; otherwise, please <a href="https://github.com/ADMARIl/halcyon-jetbrains/issues">open an issue</a>.</li>
+    </ol>
+    <p><a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/ADMARIl/halcyon-jetbrains/master/docs/screenshots/settings_shadow.png"><img src="https://raw.githubusercontent.com/ADMARIl/halcyon-jetbrains/master/docs/screenshots/settings_shadow.png" alt="settings" style="max-width:100%;"></a></p>
+    <br/>
+
     ]]></description>
 
     <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html

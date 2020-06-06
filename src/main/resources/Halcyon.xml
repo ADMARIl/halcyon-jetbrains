@@ -9,10 +9,10 @@
     </metaInfo>
     <option name="LINE_SPACING" value="1.2" />
     <option name="EDITOR_FONT_SIZE" value="12" />
-    <option name="EDITOR_FONT_NAME" value="Consolas" />
+    <option name="EDITOR_FONT_NAME" value="JetBrains Mono" />
     <console-font>
         <option name="EDITOR_FONT_NAME" value="Consolas" />
-        <option name="EDITOR_FONT_SIZE" value="13" />
+        <option name="EDITOR_FONT_SIZE" value="12" />
     </console-font>
     <console-font>
         <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
