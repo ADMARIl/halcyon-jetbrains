@@ -3,6 +3,8 @@
 #### 0.2.4
 
 - Changed some box coloring conditions
+- Updated primary editor font to JetBrains Mono
+- Made console font smaller
 
 #### 0.2.3
 
