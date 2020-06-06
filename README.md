@@ -36,7 +36,7 @@
 
 Read the [JetBrains Support Page](https://www.jetbrains.com/help/idea/managing-plugins.html#install_plugin_from_disk)
 
-## Updating
+## Updating (or if the theme suddenly turns itself off)
 
 While the IDE should prompt you when an update is available, there is occasionally an issue where the theme isn't applied after an update
 1. To fix this, go to `File → Settings → Editor → Color Scheme` and ensure **Halcyon** is selected under the `Scheme` dropdown.
