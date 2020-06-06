@@ -28,13 +28,20 @@
 3. Click **Install** to install it
 4. Click **Ok** to apply the changes
 5. Restart the IDE when prompted
-6. If the theme isn't automatically chosen, go to File > Settings > Appearance & Behavior > Appearance > Theme > **Halcyon**
+6. If the theme isn't automatically chosen, go to `File → Settings → Appearance & Behavior → Appearance → Theme →` **Halcyon**
 
 ![settings](https://raw.githubusercontent.com/ADMARIl/halcyon-jetbrains/master/docs/screenshots/settings_shadow.png)
 
 ## Manual Installation
 
 Read the [JetBrains Support Page](https://www.jetbrains.com/help/idea/managing-plugins.html#install_plugin_from_disk)
+
+## Updating
+
+While the IDE should prompt you when an update is available, there is occasionally an issue where the theme isn't applied after an update
+1. To fix this, go to `File → Settings → Editor → Color Scheme` and ensure **Halcyon** is selected under the `Scheme` dropdown.
+2. Next, ensure **Halcyon** is selected under `File → Settings → Appearance & Behavior → Appearance → Theme`
+3. If the previous two steps didn't fix your issue, try restarting your IDE; otherwise, please [open an issue](https://github.com/ADMARIl/halcyon-jetbrains/issues).
 
 ## Color Reference
 
@@ -70,4 +77,4 @@ I know I haven't covered all the languages. Please feel free to contribute!
 Pull requests are always welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 
-###### Many thanks to [Brittany Chiang](https://github.com/bchiang7) and [One Dark](https://github.com/one-dark/jetbrains-one-dark-theme) whose existing work was incredibly helpful in the creation of this theme.
+###### Many thanks to [Brittany Chiang](https://github.com/bchiang7) whose existing work was incredibly helpful in the creation of this theme.
