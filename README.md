@@ -18,7 +18,7 @@
   </a>
 </p>
 
-![code](https://raw.githubusercontent.com/ADMARIl/halcyon-jetbrains/master/docs/screenshots/main_shadow.png)
+![code](docs/screenshots/main_shadow.png)
 *Due to the way JetBrains handles syntax highlighting, there are some slight differences in coloring from the original.*
 
 ## Installation via JetBrains
@@ -30,7 +30,7 @@
 5. Restart the IDE when prompted
 6. If the theme isn't automatically chosen, go to `File → Settings → Appearance & Behavior → Appearance → Theme →` **Halcyon**
 
-![settings](https://raw.githubusercontent.com/ADMARIl/halcyon-jetbrains/master/docs/screenshots/settings_shadow.png)
+![settings](docs/screenshots/settings_shadow.png)
 
 ## Manual Installation
 
@@ -73,8 +73,9 @@ While the IDE should prompt you when an update is available, there is occasional
 
 ## Please Consider Contributing!
 
-I know I haven't covered all the languages. Please feel free to contribute!
+- I know I haven't covered all the languages. Please feel free to contribute!
 Pull requests are always welcome. For major changes, please open an issue first to discuss what you would like to change.
+- Have change or addition you'd like to see? Open an issue!
 
 
 ###### Many thanks to [Brittany Chiang](https://github.com/bchiang7) whose existing work was incredibly helpful in the creation of this theme.

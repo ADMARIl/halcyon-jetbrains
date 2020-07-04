@@ -1,5 +1,10 @@
 # Changelog
 
+#### 1.0.0
+
+- Changed merge conflict background, so it's easier to see.
+- Polish for 1.0 release
+
 #### 0.2.4
 
 - Changed some box coloring conditions

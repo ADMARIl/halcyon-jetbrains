@@ -5,11 +5,12 @@
 
     <description><![CDATA[
     <p>A minimal, dark blue theme for the JetBrains suite of IDEs based on
-    <a href="https://github.com/bchiang7/halcyon-vscode">Brittany Chiang's VSCode theme</a>.
+    <a href="https://github.com/bchiang7/halcyon-vscode">Brittany Chiang's VSCode theme</a>. Please consider leaving a review for this theme!
     </p>
     <br/>
     <p><a target="_blank" rel="noopener noreferrer" href="https://raw.githubusercontent.com/ADMARIl/halcyon-jetbrains/master/docs/screenshots/main_shadow.png"><img src="https://raw.githubusercontent.com/ADMARIl/halcyon-jetbrains/master/docs/screenshots/main_shadow.png" alt="code" style="max-width:100%;"></a>
-<em>Due to the way JetBrains handles syntax highlighting, there are some slight differences in coloring from the original.</em></p>
+    <br/>
+    <em>Due to the way JetBrains handles syntax highlighting, there are some slight differences in coloring from the original.</em></p>
     <br/>
     <h2>Setup</h2>
     <ol>
