@@ -1,4 +1,8 @@
 # Changelog
+        
+#### 1.0.1
+
+- Rebuilt for 2020.3
 
 #### 1.0.0
 
