@@ -78,4 +78,4 @@ Pull requests are always welcome. For major changes, please open an issue first 
 - Have change or addition you'd like to see? Open an issue!
 
 
-###### Many thanks to [Brittany Chiang](https://github.com/bchiang7) whose existing work was incredibly helpful in the creation of this theme.
+###### Many thanks to [Brittany Chiang](https://github.com/bchiang7) whose existing theme for VS code was the inpiration for this project.
