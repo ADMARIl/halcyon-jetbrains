@@ -1,15 +1,11 @@
 package com.ADMARIl.halcyonjetbrains.HandleStartup;
 
-public class SettingsData {
+public class HalcyonSettingsData {
     public boolean enabled = true;
 
     public boolean welcomeNotifyShowed = false;
 
-    public boolean highlightComments = false;
-
-    public String commentPrefix = "";
-
-    public SettingsData() {
+    public HalcyonSettingsData() {
         // Empty since we hopefully don't need anything here
     }
 }
