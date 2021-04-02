@@ -1,5 +1,5 @@
-<idea-plugin>
-    <id>com.ADMARIl.halcyon-jetbrains</id>
+<idea-plugin require-restart="true">
+    <id>com.ADMARIl.halcyonjetbrains</id>
     <name>Halcyon Theme</name>
     <vendor email="aings1@umbc.edu" url="https://github.com/ADMARIl/halcyon-jetbrains">Andrew Ingson</vendor>
 
@@ -40,6 +40,7 @@
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
         <themeProvider id="a20dcb56-3527-478b-b687-b4b9bc4971b1" path="/Halcyon.theme.json"/>
+        <postStartupActivity implementation="com.ADMARIl.halcyonjetbrains.HandleStartup.StartupWelcomeActivity" />
     </extensions>
 
     <actions>

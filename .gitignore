@@ -41,3 +41,6 @@ gradle.properties
 
 # Python compiled files
 *.pyc
+
+# ide files
+/.idea/

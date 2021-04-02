@@ -1,4 +1,4 @@
-package HandleStartup;
+package com.ADMARIl.halcyonjetbrains.HandleStartup;
 
 import com.intellij.notification.Notification;
 import com.intellij.notification.NotificationDisplayType;
