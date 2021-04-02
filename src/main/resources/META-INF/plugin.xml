@@ -1,4 +1,4 @@
-<idea-plugin require-restart="true">
+<idea-plugin>
     <id>com.ADMARIl.halcyonjetbrains</id>
     <name>Halcyon Theme</name>
     <vendor email="aings1@umbc.edu" url="https://github.com/ADMARIl/halcyon-jetbrains">Andrew Ingson</vendor>

@@ -1,8 +1,15 @@
 # Changelog
-        
+
+#### 2.0.0
+
+- Reworked background tasks to automatically apply the editor theme after the first run
+- Added notification to prompt the user to update their UI theme after install/update
+- Minor UI coloring changes
+- Updated plugin core to [v0.7.2](https://github.com/JetBrains/gradle-intellij-plugin/releases/tag/v0.7.2)
+  
 #### 1.0.1
 
-- Rebuilt for 2020.3
+- Rebuilt for [2020.3](https://github.com/JetBrains/gradle-intellij-plugin/releases/tag/v0.5.0)
 
 #### 1.0.0
 
