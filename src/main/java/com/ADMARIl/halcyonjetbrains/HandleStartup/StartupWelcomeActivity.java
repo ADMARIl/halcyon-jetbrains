@@ -17,6 +17,11 @@ public class StartupWelcomeActivity implements StartupActivity {
             return;
         }
 
+        // TODO: Needs to be removed at some point
+        NotificationGroup notificationGroup = new NotificationGroup(
+                "Halcyon Theme", NotificationDisplayType.STICKY_BALLOON, true
+        );
+
         NotificationListener.Adapter notificationListener = new NotificationListener.Adapter() {
             @Override
             protected void hyperlinkActivated(@NotNull Notification notification, @NotNull HyperlinkEvent e) {
@@ -25,8 +30,16 @@ public class StartupWelcomeActivity implements StartupActivity {
                 }
             }
         };
+        // Wait for API sunset before using
+//        Notification notification = NotificationGroupManager.getInstance().getNotificationGroup("Halcyon Theme").createNotification(
+//                "Halcyon-Theme",
+//                "If you don't see the correct UI theme, make sure it's selected in " +
+//                        "<a href=\"#\">Settings > Appearance & Behavior > Appearance > Theme</a>",
+//                NotificationType.INFORMATION,
+//                notificationListener
+//        );
 
-        Notification notification = NotificationGroupManager.getInstance().getNotificationGroup("Halcyon Theme").createNotification(
+        Notification notification = notificationGroup.createNotification(
                 "Halcyon-Theme",
                 "If you don't see the correct UI theme, make sure it's selected in " +
                         "<a href=\"#\">Settings > Appearance & Behavior > Appearance > Theme</a>",
