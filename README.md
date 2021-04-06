@@ -71,6 +71,10 @@ While the IDE should prompt you when an update is available, there is occasional
 | ![#ef6b73](https://via.placeholder.com/10/ef6b73?text=+) `#ef6b73` | Deletion highlights, errors, warnings      |
 | ![#5ccfe6](https://via.placeholder.com/10/5ccfe6?text=+) `#5ccfe6` | Modified highlights                        |
 
+## Changelog
+
+See the changelog [here](docs/CHANGELOG.md).
+
 ## Please Consider Contributing!
 
 - I know I haven't covered all the languages. Please feel free to contribute!
