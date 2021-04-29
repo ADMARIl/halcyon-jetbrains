@@ -5,6 +5,7 @@
 - Implemented theming for popup windows _(Thanks Paracells!)_
 - Changed welcome notification to be a regular balloon instead of a sticky one
 - Updated plugin core to v0.7.3
+- Fixes #9
 
 #### 2.0.0
 

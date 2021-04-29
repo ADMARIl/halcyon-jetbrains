@@ -81,5 +81,9 @@ See the changelog [here](docs/CHANGELOG.md).
 Pull requests are always welcome. For major changes, please open an issue first to discuss what you would like to change.
 - Have change or addition you'd like to see? Open an issue!
 
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
 
 ###### Many thanks to [Brittany Chiang](https://github.com/bchiang7) whose existing theme for VS code was the inpiration for this project.
