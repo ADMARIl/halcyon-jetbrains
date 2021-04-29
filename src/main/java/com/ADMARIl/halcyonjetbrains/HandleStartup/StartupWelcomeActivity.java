@@ -13,13 +13,14 @@ import javax.swing.event.HyperlinkEvent;
 public class StartupWelcomeActivity implements StartupActivity {
     @Override
     public void runActivity(@NotNull Project project) {
+        // TODO: This is broken for some dumb reason
         if (HalcyonSettings.getInstance().isWelcomeNotifyShowed()) {
             return;
         }
 
         // TODO: Needs to be removed at some point
         NotificationGroup notificationGroup = new NotificationGroup(
-                "Halcyon Theme", NotificationDisplayType.STICKY_BALLOON, true
+                "Halcyon Theme", NotificationDisplayType.BALLOON, true
         );
 
         NotificationListener.Adapter notificationListener = new NotificationListener.Adapter() {
