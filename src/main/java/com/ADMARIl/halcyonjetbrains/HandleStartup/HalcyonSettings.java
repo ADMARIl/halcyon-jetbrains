@@ -17,10 +17,9 @@ public class HalcyonSettings implements PersistentStateComponent<HalcyonSettings
 
     private static final HalcyonSettings HALCYON_SETTINGS_COMPONENT = new HalcyonSettings();
 
-    @Nullable
     @Override
     public HalcyonSettingsData getState() {
-        return halcyonSettings;
+        return this.halcyonSettings;
     }
 
     @Override
@@ -55,7 +54,7 @@ public class HalcyonSettings implements PersistentStateComponent<HalcyonSettings
     }
 
     public void setWelcomeNotifyShowed(boolean welcomeNotifyShowed) {
-        assert getState() != null;
+        // assert getState() != null;
         getState().welcomeNotifyShowed = welcomeNotifyShowed;
     }
 

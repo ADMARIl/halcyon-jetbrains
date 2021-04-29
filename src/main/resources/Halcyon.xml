@@ -1,10 +1,10 @@
 <scheme name="Halcyon" version="142" parent_scheme="Darcula">
     <option name="FONT_SCALE" value="1.0" />
     <metaInfo>
-        <property name="created">2020-04-09T21:40:12</property>
-        <property name="ide">idea</property>
-        <property name="ideVersion">2020.1.0.0</property>
-        <property name="modified">2020-04-09T21:40:23</property>
+        <property name="created">2021-04-29T17:44:59</property>
+        <property name="ide">Python</property>
+        <property name="ideVersion">2021.1.0.0</property>
+        <property name="modified">2021-04-29T17:45:15</property>
         <property name="originalScheme">_@user_Halcyon</property>
     </metaInfo>
     <option name="LINE_SPACING" value="1.2" />
@@ -23,6 +23,7 @@
         <option name="CARET_COLOR" value="d7dce2" />
         <option name="CARET_ROW_COLOR" value="2f3b54" />
         <option name="CONSOLE_BACKGROUND_KEY" value="" />
+        <option name="DOCUMENTATION_COLOR" value="2f3b54" />
         <option name="FILESTATUS_ADDED" value="bae67e" />
         <option name="FILESTATUS_COPIED" value="bae67e" />
         <option name="FILESTATUS_DELETED" value="ef6b73" />
@@ -99,6 +100,11 @@
             <value>
                 <option name="FOREGROUND" value="bae67e" />
                 <option name="FONT_TYPE" value="2" />
+            </value>
+        </option>
+        <option name="DEFAULT_DOC_MARKUP">
+            <value>
+                <option name="BACKGROUND" value="2f3b54" />
             </value>
         </option>
         <option name="DEFAULT_DOT">
@@ -216,11 +222,6 @@
         <option name="JS.KEYWORD">
             <value>
                 <option name="FOREGROUND" value="ffae57" />
-            </value>
-        </option>
-        <option name="MARKDOWN_HRULE">
-            <value>
-                <option name="FOREGROUND" value="808080" />
             </value>
         </option>
         <option name="MARKDOWN_HTML_BLOCK">
