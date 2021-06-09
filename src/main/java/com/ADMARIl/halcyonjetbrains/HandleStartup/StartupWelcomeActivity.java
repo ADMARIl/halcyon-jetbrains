@@ -49,9 +49,9 @@ public class StartupWelcomeActivity implements StartupActivity {
         );
 
         // Hopefully forces theme if using for the first time
-        EditorColorsManager manager = EditorColorsManager.getInstance();
+        /*EditorColorsManager manager = EditorColorsManager.getInstance();
         EditorColorsScheme scheme = manager.getScheme("Halcyon");
-        EditorColorsManager.getInstance().setGlobalScheme(scheme);
+        EditorColorsManager.getInstance().setGlobalScheme(scheme);*/
 
         Notifications.Bus.notify(notification);
         HalcyonSettings.getInstance().setWelcomeNotifyShowed(true);
