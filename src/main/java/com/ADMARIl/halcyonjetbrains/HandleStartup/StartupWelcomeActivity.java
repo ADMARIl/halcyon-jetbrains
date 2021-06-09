@@ -51,9 +51,11 @@ public class StartupWelcomeActivity implements StartupActivity {
         // Hopefully forces theme if using for the first time
         /*EditorColorsManager manager = EditorColorsManager.getInstance();
         EditorColorsScheme scheme = manager.getScheme("Halcyon");
-        EditorColorsManager.getInstance().setGlobalScheme(scheme);*/
+        EditorColorsManager.getInstance().setGlobalScheme(scheme);
+        System.out.println("Theme Successfully forced");*/
 
         Notifications.Bus.notify(notification);
         HalcyonSettings.getInstance().setWelcomeNotifyShowed(true);
+        System.out.println("Theme loaded");
     }
 }

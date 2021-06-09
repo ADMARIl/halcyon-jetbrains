@@ -1,5 +1,9 @@
 # Changelog
 
+#### 2.1.1
+
+- Disables automatic forcing of plugin theme
+
 #### 2.1.0
 
 - Implemented theming for popup windows _(Thanks Paracells!)_
