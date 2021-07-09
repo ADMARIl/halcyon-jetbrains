@@ -1,5 +1,9 @@
 # Changelog
 
+#### 2.1.2
+
+- Disabled status notifications
+
 #### 2.1.1
 
 - Disables automatic forcing of plugin theme
