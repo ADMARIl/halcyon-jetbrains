@@ -1,5 +1,10 @@
 # Changelog
 
+#### 2.2.2
+
+- Fixed compatibility issues with new IDE versions.
+- Updated intellij plugin core to v1.4.0.
+
 #### 2.1.2
 
 - Disabled status notifications

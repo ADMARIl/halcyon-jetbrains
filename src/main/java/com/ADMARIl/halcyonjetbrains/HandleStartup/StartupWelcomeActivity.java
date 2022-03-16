@@ -18,10 +18,10 @@ public class StartupWelcomeActivity implements StartupActivity {
             return;
         }
 
-        // TODO: Needs to be removed at some point
-        NotificationGroup notificationGroup = new NotificationGroup(
-                "Halcyon Theme", NotificationDisplayType.BALLOON, true
-        );
+//        // TODO: Needs to be removed at some point
+//        NotificationGroup notificationGroup = new NotificationGroup(
+//                "Halcyon Theme", NotificationDisplayType.BALLOON, true
+//        );
 
         NotificationListener.Adapter notificationListener = new NotificationListener.Adapter() {
             @Override
@@ -31,7 +31,7 @@ public class StartupWelcomeActivity implements StartupActivity {
                 }
             }
         };
-        // Wait for API sunset before using
+         // Wait for API sunset before using
 //        Notification notification = NotificationGroupManager.getInstance().getNotificationGroup("Halcyon Theme").createNotification(
 //                "Halcyon-Theme",
 //                "If you don't see the correct UI theme, make sure it's selected in " +
@@ -39,14 +39,14 @@ public class StartupWelcomeActivity implements StartupActivity {
 //                NotificationType.INFORMATION,
 //                notificationListener
 //        );
-
-        Notification notification = notificationGroup.createNotification(
-                "Halcyon-Theme",
-                "If you don't see the correct UI theme, make sure it's selected in " +
-                        "<a href=\"#\">Settings > Appearance & Behavior > Appearance > Theme</a>",
-                NotificationType.INFORMATION,
-                notificationListener
-        );
+//
+//        Notification notification = notificationGroup.createNotification(
+//                "Halcyon-Theme",
+//                "If you don't see the correct UI theme, make sure it's selected in " +
+//                        "<a href=\"#\">Settings > Appearance & Behavior > Appearance > Theme</a>",
+//                NotificationType.INFORMATION,
+//                notificationListener
+//        );
 
         // Hopefully forces theme if using for the first time
         /*EditorColorsManager manager = EditorColorsManager.getInstance();
