@@ -1,12 +1,10 @@
 plugins {
     id 'java'
-    id 'org.jetbrains.intellij' version '0.7.3'
+    id 'org.jetbrains.intellij' version '1.4.0'
 }
 
 group 'com.ADMARIl'
-version '2.1.2'
-
-sourceCompatibility = 1.8
+version '2.2.0'
 
 repositories {
     mavenCentral()
@@ -18,18 +16,22 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version 'LATEST-EAP-SNAPSHOT'
+    version.set('LATEST-EAP-SNAPSHOT')
 }
 patchPluginXml {
-    sinceBuild '191'
+    sinceBuild.set("213")
 
     def changelogPath = "$projectDir/docs/CHANGELOG.html"
 
     if (file(changelogPath).exists()) {
-        changeNotes file(changelogPath).text
+        changeNotes.set(file(changelogPath).text)
     }
 }
 
 publishPlugin {
-    token intellijPublishToken
+    token.set(intellijPublishToken)
+}
+
+runPluginVerifier {
+    ideVersions.set(["IC-2021.3.1"])
 }
