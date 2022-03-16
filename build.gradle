@@ -16,7 +16,7 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version.set('2021.3.1')
+    version.set('LATEST-EAP-SNAPSHOT')
 }
 patchPluginXml {
     sinceBuild.set("213")
