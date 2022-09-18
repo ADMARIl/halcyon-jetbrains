@@ -1,37 +1,34 @@
 plugins {
-    id 'java'
-    id 'org.jetbrains.intellij' version '1.4.0'
+    id("java")
+    id("org.jetbrains.intellij") version "1.9.0"
 }
 
 group 'com.ADMARIl'
-version '2.2.0'
+version '2.2.1'
 
 repositories {
     mavenCentral()
-}
-
-dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
     version.set('LATEST-EAP-SNAPSHOT')
 }
-patchPluginXml {
-    sinceBuild.set("213")
 
-    def changelogPath = "$projectDir/docs/CHANGELOG.html"
+tasks {
+    patchPluginXml {
+        def changelogPath = "$projectDir/docs/CHANGELOG.html"
 
-    if (file(changelogPath).exists()) {
-        changeNotes.set(file(changelogPath).text)
+        if (file(changelogPath).exists()) {
+            changeNotes.set(file(changelogPath).text)
+        }
     }
-}
 
-publishPlugin {
-    token.set(intellijPublishToken)
-}
+    publishPlugin {
+        token.set(intellijPublishToken)
+    }
 
-runPluginVerifier {
-    ideVersions.set(["IC-2021.3.1"])
+    runPluginVerifier {
+        ideVersions.set(["IC-2021.3.1"])
+    }
 }

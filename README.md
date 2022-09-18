@@ -18,6 +18,9 @@
   </a>
 </p>
 
+## Updates
+Unfortunately, I no longer use JetBrains IDEs in my day-to-day work so I don't have as much time to keep this plugin updated; however, I still do update occasionally! **Please feel free to contribute if there is an issue I haven't gotten to yet!**
+
 ![code](docs/screenshots/main_shadow.png)
 *Due to the way JetBrains handles syntax highlighting, there are some slight differences in coloring from the original.*
 

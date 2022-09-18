@@ -1,6 +1,11 @@
 # Changelog
 
-#### 2.2.2
+#### 2.2.1
+
+- Fixed compatibility issues with new IDE versions. (again!)
+- Updated intellij plugin core to v1.9.0.
+
+#### 2.2.0
 
 - Fixed compatibility issues with new IDE versions.
 - Updated intellij plugin core to v1.4.0.
