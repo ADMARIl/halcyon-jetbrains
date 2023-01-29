@@ -1,5 +1,9 @@
 # Changelog
 
+#### 2.3.0
+
+- Update gradle build
+
 #### 2.2.1
 
 - Fixed compatibility issues with new IDE versions. (again!)
