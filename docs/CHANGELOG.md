@@ -1,5 +1,9 @@
 # Changelog
 
+#### 2.3.1
+
+- Rebuild plugin with jdk 17 to resolve IDE exception
+
 #### 2.3.0
 
 - Update gradle build
