@@ -1,5 +1,10 @@
 # Changelog
 
+#### 2.3.2
+
+- Fixed compatibility issues with new IDE versions.
+- Updated intellij plugin core to v1.13.3.
+
 #### 2.3.1
 
 - Rebuild plugin with jdk 17 to resolve IDE exception
